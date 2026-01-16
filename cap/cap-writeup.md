@@ -122,7 +122,7 @@ Após o acesso via SSH, foi realizada enumeração local, incluindo:
 
 Para aprofundar a enumeração, foi utilizado o **linPEAS**, que identificou configurações inseguras relacionadas a permissões e execução de Python.
 
-![linpeas](./imagem/linpeas.png.png)
+![linpeas](./imagem/linpeas.png)
 
 ---
 
