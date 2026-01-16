@@ -90,10 +90,15 @@ Durante a enumeração da aplicação web, foi identificado um endpoint vulnerá
 http://10.10.10.245/data/{id}
 ```
 
+![IDOR primeira requisição](../imagem/IDOR1.png)
+
 Alterando o parâmetro `id`, foi possível baixar arquivos no formato **.pcap**.
+
+![IDOR alterando parametro](../imagem/IDOR-2.png)
 
 Ao analisar os arquivos capturados, foram identificadas **credenciais em texto claro**, que permitiram o acesso ao serviço FTP.
 
+![Anlise arquivo pcap](../imagem/pcap.png)
 ---
 
 ## 4. Initial Access (Foothold)
@@ -116,6 +121,8 @@ Após o acesso via SSH, foi realizada enumeração local, incluindo:
 - Identificação de uma rota vulnerável a **Command Injection**
 
 Para aprofundar a enumeração, foi utilizado o **linPEAS**, que identificou configurações inseguras relacionadas a permissões e execução de Python.
+
+![linpeas](../imagem/linpeas.png.png)
 
 ---
 
@@ -161,10 +168,3 @@ A exploração da máquina foi possível devido a uma combinação de fatores:
 - Configuração insegura permitindo **Privilege Escalation via Python**
 
 ---
-
-### Request Argument
-
-```text
-Buck3tH4TF0RM3!
-```
-
