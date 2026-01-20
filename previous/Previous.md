@@ -174,16 +174,6 @@ O acesso como **root** foi obtido com sucesso.
 
 ![Root Key](./imagem/chave-rsa.png)
 
----
-
-## Credenciais
-
-```text
-Usuário: jeremy
-Senha: MyNameIsJeremyAndILovePancakes
-```
-
----
 
 **Máquina comprometida com sucesso.** 🏴‍☠️
 
